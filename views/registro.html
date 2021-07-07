@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>register mercado liebre</title>
+        <link rel="stylesheet" href="/css/styles.css"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            rel="stylesheet"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="marco">
+            <h3>REGISTRO</h3>
+            <form action="/registro" method="POST">
+                <div class="nombre">
+                    <label for="Nombre y Apellido:"></label>
+                    <input type="text" name="nombre" placeholder="Nombre y Apellido:"></input>
+                </div>
+                <div>
+                    <label for="Usuario"></label>
+                    <input type="text" name="usuario"placeholder="Usuario:"></input>
+                </div>
+                <div>
+                    <label for="Contraseña"></label>
+                    <input type="text" name="Contraseña"placeholder="Contraseña:"></input>
+                </div>
+                <div>
+                    <label for="Confirma"></label>
+                    <input type="text" name="Confirma"placeholder="Confirmar contraseña:"></input>
+                </div>
+                <div>
+                    <label for="Correo electronico"></label>
+                    <input type="email" name="emailUsuario" placeholder="Correo electrónico"></input>
+                </div>
+                <div>
+                    <label for="Confirma correo"></label>
+                    <input type="email" name="confirma correo" placeholder="Confirma correo electrónico:"></input>
+                </div>
+                <br>
+                    <h4>Fecha de Nacimiento</h4>
+                <div>
+                    <label for="fecha"></label>
+                    <input type="date" name="fecha"placeholder="mm/dd/yyyy:"></input>
+                </div>
+                <div>
+                    <label for="domicilio"></label>
+                    <input type="text" name="domicilio"placeholder="Domicilio:"></input>
+                </div>
+                <br>
+                    <h4>Perfil del Usuario</h4>
+                <div>
+                    <input type="radio" name="perfil" value=Comprador checked></input>
+                    <label>Comprador</label>
+                    <br>
+                    <input type="radio" name="perfil" value=Vendedor checked></input>
+                    <label>Vendedor</label>
+                </div>
+                <br>
+                    <h4>Intereses</h4>
+                <div>
+                    <input type="checkbox" name="intereses" value=electro></input>
+                    <label>Electro</label>
+                    <br>
+                    <input type="checkbox" name="intereses" value=moda></input>
+                    <label>Moda</label>                 
+                    <br>
+                    <input type="checkbox" name="intereses" value=hogar></input>
+                    <label>Hogar</label>
+                    <br>
+                    <input type="checkbox" name="intereses" value=jugeteria></input>
+                    <label>Jugeteria</label>
+                    <br>
+                    <input type="checkbox" name="intereses" value=vidasana></input>
+                    <label>Vida Sana</label>
+                    <br>
+                </div>
+                <div>
+                    <br>
+                    <div class="crear">
+                        <button type="submit">Crear cuenta</button>
+                    </div>
+                    <div class="tenescuenta">
+                    <p>Ya tenés cuenta?  <a href="/login">Iniciá sesión acá</a></p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
