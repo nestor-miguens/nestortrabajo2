@@ -19,14 +19,13 @@ app.get('/Registro', (req,res) =>{
 
 
 
-app.listen(3000, () => {
-    console.log("Servidor corriendo");
-});
+app.listen(process.env.PORT || 3000, function() {
+  console.log("Servidor corriendo");
+})
 
-
-
-
-//app.use(express.static(path.resolve(__dirname, './public')));
+// app.listen(3000, () => {
+//     console.log("Servidor corriendo");
+// });
 
 
 
