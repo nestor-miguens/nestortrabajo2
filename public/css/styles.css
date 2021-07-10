@@ -102,12 +102,13 @@ main{
     color:#39b54a;
 }
 .descripcion{
-    color: #666;
+    color:white;
     font-size:20px;
-    overflow: hidden;
+    overflow:hidden;
 }
 .descripcion:hover{
     overflow:visible;
+    color:#666
 }
 #entrega{
     color:#39b54a;
@@ -147,7 +148,11 @@ footer{
 .fa-gift:hover{
     color:#39b54a;
 }
-
+#cierre{
+    text-align:center;
+    font-size:12px;
+    margin-top: 10px;
+}
 /*///// MEDIAS /////*/
 
 @media only screen and (max-width:360px){
@@ -238,7 +243,11 @@ footer h3{
 #cierre{
     text-align:center;
     font-size:12px;
-    
+    margin-top: 10px;
+}
+.descripcion:hover{
+    overflow:visible;
+    color:#666;
 }
 }
 @media only screen and (min-width:361px) and (max-width:769px){ 
@@ -295,6 +304,7 @@ footer h3{
     }
     .descripcion{
         margin:20px;
+        color:#666
     }
     .cuadro2{
         position:relative;
@@ -316,7 +326,8 @@ footer h3{
     }
     .titulosmain{
         border:solid 10px #ebebeb;
-        font-size:24px;
+        font-size:20px;
+        text-align: center;
     }
     .contenedor{
         display:flex;
@@ -344,7 +355,6 @@ footer h3{
         padding-top:18px;
     }
 }
-
 @media only screen and (min-width:769px) and (max-width:1400px){
 
     .main-header-top-bar{
@@ -384,7 +394,7 @@ footer h3{
     }
     .precioporcentaje h4{
     font-size: 14px;
-    padding-left: 10px;
+    padding-left: 5px;
     }
     .titulosmain {
     font-size:24px;
@@ -415,11 +425,13 @@ footer h3{
 .ofertas{
     display: inline;
 }
+.descripcion{
+    color:#666
+}
 footer p{
     text-align:center;
     font-size:10px;
     line-height:10px;
-    
 }
 footer h3{
     text-align:center;
@@ -524,4 +536,7 @@ input[type=checkbox]{
 input[type=radio]{
     margin: 15px 0;
     padding-right:20px;
+}
+.crear button{
+    margin-bottom: 10px;
 }

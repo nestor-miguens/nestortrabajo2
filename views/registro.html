@@ -24,19 +24,19 @@
                 </div>
                 <div>
                     <label for="Contraseña"></label>
-                    <input type="text" name="Contraseña"placeholder="Contraseña:"></input>
+                    <input type="text" name="Contraseña"placeholder="Contraseña:"required/>
                 </div>
                 <div>
                     <label for="Confirma"></label>
-                    <input type="text" name="Confirma"placeholder="Confirmar contraseña:"></input>
+                    <input type="text" name="Confirma"placeholder="Confirmar contraseña:" required></input>
                 </div>
                 <div>
                     <label for="Correo electronico"></label>
-                    <input type="email" name="emailUsuario" placeholder="Correo electrónico"></input>
+                    <input type="email" name="emailUsuario" placeholder="Correo electrónico" required/>
                 </div>
                 <div>
                     <label for="Confirma correo"></label>
-                    <input type="email" name="confirma correo" placeholder="Confirma correo electrónico:"></input>
+                    <input type="email" name="confirma correo" placeholder="Confirma correo electrónico:" required></input>
                 </div>
                 <br>
                     <h4>Fecha de Nacimiento</h4>
@@ -79,7 +79,9 @@
                 <div>
                     <br>
                     <div class="crear">
-                        <button type="submit">Crear cuenta</button>
+                        <button class="enviar" type="submit">Enviar</button>
+                        <br>
+                        <button type="reset">Reiniciar</button>
                     </div>
                     <div class="tenescuenta">
                     <p>Ya tenés cuenta?  <a href="/login">Iniciá sesión acá</a></p>
